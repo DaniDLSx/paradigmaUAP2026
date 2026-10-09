@@ -41,7 +41,13 @@
     /*
      * Inserta un elemento
      */
-    def insert(nro: Int, tree: Tree): Tree = ???
+    def insert(nro: Int, tree: Tree): Tree = tree match {
+    	case EmptyTree => new Node(nro, new EmptyTree(), new EmptyTree()
+    	case Node(nroFromNode, left, right) => 
+    		if (nro < nroFromNode) new Node(nroFromNode, insert(nro, left), right)
+    		else new Node(nroFromNode, left, insert(nro, right))
+    		
+    }
 
     /**
      * Devuelve verdadero si el elemento esta en el arbol.
