@@ -1,12 +1,5 @@
 object Clase4 {
 
-  /**
-   * Buscar
-   * Dada una lista y una función de comparación, devuelve el valor que cumple la condición.
-   */
-  def buscar(lista: List[Int], com: (Int, Int) => Boolean): Int = ???
-
-
   /*
    * Busca el Maximo
    */
@@ -17,10 +10,10 @@ object Clase4 {
    */
   def min(lista: List[Int]): Int = ???
 
-  // filtra la lista de valores mayores que el valor e pasado por parametro
+  // filtra la lista de valores mayores que el valor e pasado por parametro (usar filter)
   def maximos(lista: List[Int], e: Int): List[Int] = ???
 
-  // filtra la lista de valores menores que el valor e pasado por parametro
+  // filtra la lista de valores menores que el valor e pasado por parametro (usar filter)
   def minimos(lista: List[Int], e: Int): List[Int] = ???
 
   // Ordena los valores de una lista utilizando quicksort
@@ -38,11 +31,11 @@ object Clase4 {
 
 
   /**
-   * Cuenta los elementos
+   * Cuenta los elementos usar fold
    */
   def contar(lista: List[Int]): Int = ???
 
-  // Acumula los elementos
+  // Acumula los elementos usar fold
   def acc(lista: List[Int]): Int = ???
 
   /**
@@ -85,11 +78,6 @@ object Clase4 {
    * Une 2 listas pasada por parametros
    */
   def unir(lista: List[Int], otraLista: List[Int]): List[Int] = ???
-
-  /**
-   * Transforma la lista a un lista de otro tipo
-   */
-  def transformar[T](lista: List[Int], fx: (Int) => (T)): List[T] = ???
 
   /**
    * retorna true si un elemento existe en la lista
