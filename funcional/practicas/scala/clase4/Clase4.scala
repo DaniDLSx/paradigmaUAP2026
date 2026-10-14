@@ -103,5 +103,43 @@ object Clase4 {
    * ****************************** */
   def cortar(lista: List[Int], n : Int): List[List[Int]] = ???
 
+/**
+ * Obtiene una nueva lista con el cuadrado de cada elemento usando map.
+ */
+def cuadrados(lista: List[Int]): List[Int] = ???
 
+/**
+ * Acumula la suma de los elementos positivos de una lista usando fold.
+ */
+def sumarPositivos(lista: List[Int]): Int = ???
+
+/**
+ * Obtiene una nueva lista con cada palabra convertida a mayúsculas usando map.
+ */
+def convertirMayusculas(lista: List[String]): List[String] = ???
+
+/**
+ * Obtiene una lista con las palabras que tienen más de cinco caracteres usando filter.
+ */
+def palabrasLargas(lista: List[String]): List[String] = ???
+
+/**
+ * Cuenta la cantidad de elementos de una lista usando fold.
+ */
+def contarElementos(lista: List[Int]): Int = ???
+
+/**
+ * Obtiene una nueva lista con el doble de los números impares usando map y filter.
+ */
+def dobleImpares(lista: List[Int]): List[Int] = ???
+
+/**
+ * Calcula el producto de todos los elementos de una lista usando fold.
+ */
+def producto(lista: List[Int]): Int = ???
+
+/**
+ * Calcula la suma de los cuadrados de los números pares usando filter, map y fold.
+ */
+def sumaCuadradosPares(lista: List[Int]): Int = ???
 }
